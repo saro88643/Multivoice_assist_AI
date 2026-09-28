@@ -1,0 +1,69 @@
+name: multivoice_assist
+
+description: A multilingual AI chatbot application.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # HTTP
+  http: ^1.2.2
+
+  # Speech to Text
+  speech_to_text: ^7.4.0
+
+  # Audio Playback
+  just_audio: ^0.10.6
+
+  # Store generated audio
+  path_provider: ^2.1.6
+
+  # Image
+  image_picker: ^1.2.3
+  image_cropper: ^12.2.1
+
+  # Database
+  sqflite: ^2.4.3
+  path: ^1.9.1
+
+  # State Management
+  provider: ^6.1.5
+
+  # Environment Variables
+  flutter_dotenv: ^5.2.1
+
+  # UUID
+  uuid: ^4.6.0
+
+  # Connectivity
+  connectivity_plus: ^7.3.1
+
+  # Permissions
+  permission_handler: ^12.0.3
+
+  # Local Storage
+  shared_preferences: ^2.5.3
+
+  # Fonts
+  google_fonts: ^8.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
