@@ -1,0 +1,242 @@
+[
+  {
+    "id": "TC001",
+    "query": "What is MultiVoice Assist?",
+    "language": "en",
+    "category": "project",
+    "expected_document_id": "001",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC002",
+    "query": "wat is multivoice",
+    "language": "en",
+    "category": "project",
+    "expected_document_id": "001",
+    "expected_answer_type": "fuzzy_match"
+  },
+  {
+    "id": "TC003",
+    "query": "MultiVoice Assist என்றால் என்ன?",
+    "language": "ta",
+    "category": "project",
+    "expected_document_id": "001_ta",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC004",
+    "query": "MultiVoice Assist क्या है?",
+    "language": "hi",
+    "category": "project",
+    "expected_document_id": "001_hi",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC005",
+    "query": "MultiVoice Assist എന്താണ്?",
+    "language": "ml",
+    "category": "project",
+    "expected_document_id": "001_ml",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC006",
+    "query": "MultiVoice Assist అంటే ఏమిటి?",
+    "language": "te",
+    "category": "project",
+    "expected_document_id": "001_te",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC007",
+    "query": "MultiVoice Assist ಎಂದರೇನು?",
+    "language": "kn",
+    "category": "project",
+    "expected_document_id": "001_kn",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC008",
+    "query": "ما هو MultiVoice Assist؟",
+    "language": "ar",
+    "category": "project",
+    "expected_document_id": "001_ar",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC009",
+    "query": "Does MultiVoice Assist work offline?",
+    "language": "en",
+    "category": "features",
+    "expected_document_id": "002",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC010",
+    "query": "How is my chat history saved?",
+    "language": "en",
+    "category": "history",
+    "expected_document_id": "008",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC011",
+    "query": "What database is used?",
+    "language": "en",
+    "category": "database",
+    "expected_document_id": "009",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC012",
+    "query": "Is any API key required?",
+    "language": "en",
+    "category": "technical",
+    "expected_document_id": "010",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC013",
+    "query": "Do I need OpenAI or Groq key?",
+    "language": "en",
+    "category": "technical",
+    "expected_document_id": "010",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC014",
+    "query": "What is the population of Mars?",
+    "language": "en",
+    "category": "unknown",
+    "expected_document_id": null,
+    "expected_answer_type": "fallback_not_found"
+  },
+  {
+    "id": "TC015",
+    "query": "Who won the football world cup in 1930?",
+    "language": "en",
+    "category": "unknown",
+    "expected_document_id": null,
+    "expected_answer_type": "fallback_not_found"
+  },
+  {
+    "id": "TC016",
+    "query": "How to edit user profile image?",
+    "language": "en",
+    "category": "profile",
+    "expected_document_id": "007",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC017",
+    "query": " speech to text voice input",
+    "language": "en",
+    "category": "voice",
+    "expected_document_id": "003",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC018",
+    "query": "Text-to-speech local audio",
+    "language": "en",
+    "category": "voice",
+    "expected_document_id": "004",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC019",
+    "query": "Which languages are supported?",
+    "language": "en",
+    "category": "languages",
+    "expected_document_id": "005",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC020",
+    "query": "How does login and registration work?",
+    "language": "en",
+    "category": "auth",
+    "expected_document_id": "006",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC021",
+    "query": "இணைப்பு இல்லாமல் வேலை செய்யுமா?",
+    "language": "ta",
+    "category": "features",
+    "expected_document_id": "002_ta",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC022",
+    "query": "क्या यह ऐप ऑफलाइन काम करता है?",
+    "language": "hi",
+    "category": "features",
+    "expected_document_id": "002_hi",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC023",
+    "query": "ഓഫ്ലൈനായി പ്രവർത്തിക്കുമോ?",
+    "language": "ml",
+    "category": "features",
+    "expected_document_id": "002_ml",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC024",
+    "query": "ఈ యాప్ ಆಫ್‌ಲೈನ್ లో పనిచేస్తుందా?",
+    "language": "te",
+    "category": "features",
+    "expected_document_id": "002_te",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC025",
+    "query": "ಈ ಅಪ್ಲಿಕೇಶನ್ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆಯೇ?",
+    "language": "kn",
+    "category": "features",
+    "expected_document_id": "002_kn",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC026",
+    "query": "هل يعمل التطبيق بدون إنترنت؟",
+    "language": "ar",
+    "category": "features",
+    "expected_document_id": "002_ar",
+    "expected_answer_type": "exact_language_match"
+  },
+  {
+    "id": "TC027",
+    "query": "rag engine architecture details",
+    "language": "en",
+    "category": "technical",
+    "expected_document_id": "011",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC028",
+    "query": "what is minimum relevance score",
+    "language": "en",
+    "category": "technical",
+    "expected_document_id": "012",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC029",
+    "query": "where are chat messages stored",
+    "language": "en",
+    "category": "database",
+    "expected_document_id": "008",
+    "expected_answer_type": "exact_or_grounded"
+  },
+  {
+    "id": "TC030",
+    "query": "tell me something completely unrelated to project",
+    "language": "en",
+    "category": "unknown",
+    "expected_document_id": null,
+    "expected_answer_type": "fallback_not_found"
+  }
+]

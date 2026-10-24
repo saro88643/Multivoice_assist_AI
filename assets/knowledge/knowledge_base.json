@@ -1,0 +1,272 @@
+[
+  {
+    "id": "001",
+    "title": "MultiVoice Assist Overview",
+    "category": "project",
+    "language": "en",
+    "keywords": ["multivoice", "assist", "project", "overview", "what is", "about"],
+    "question": "What is MultiVoice Assist?",
+    "content": "MultiVoice Assist is a lightweight, offline-capable multilingual voice assistant built using Flutter. It provides local RAG (Retrieval-Augmented Generation) search, Speech-to-Text, device Text-to-Speech, and SQLite chat history without requiring commercial AI API keys."
+  },
+  {
+    "id": "002",
+    "title": "MultiVoice Assist Overview Tamil",
+    "category": "project",
+    "language": "ta",
+    "keywords": ["multivoice", "அசிஸ்ட்", "என்ன", "பற்றி", "விளக்கம்"],
+    "question": "MultiVoice Assist என்றால் என்ன?",
+    "content": "MultiVoice Assist என்பது ஒரு குறைந்த எடையுள்ள, இணையம் இல்லாத ஆஃப்லைன் பன்மொழி குரல் உதவி பயன்பாடாகும். இது உள்ளூர் RAG தேடல், பேச்சு-உரை மாற்றம், சாதன உரை-பேச்சு சேவை மற்றும் SQLite அரட்டை வரலாற்றை வழங்குகிறது."
+  },
+  {
+    "id": "003",
+    "title": "MultiVoice Assist Overview Hindi",
+    "category": "project",
+    "language": "hi",
+    "keywords": ["multivoice", "क्या है", "सहायक", "परिचय"],
+    "question": "MultiVoice Assist क्या है?",
+    "content": "MultiVoice Assist एक हल्का और ऑफलाइन कार्य करने वाला बहुभाषी वॉयस असिस्टेंट है जिसे Flutter में बनाया गया है। यह बिना किसी API कुंजी के लोकल RAG सर्च, स्पीच-टू-टेक्स्ट और डिवाइस टेक्स्ट-टू-स्पीच प्रदान करता है।"
+  },
+  {
+    "id": "004",
+    "title": "MultiVoice Assist Overview Malayalam",
+    "category": "project",
+    "language": "ml",
+    "keywords": ["multivoice", "എന്താണ്", "സഹായി", "വിവരണം"],
+    "question": "MultiVoice Assist എന്താണ്?",
+    "content": "MultiVoice Assist എന്നത് ഫ്ലട്ടറിൽ നിർമ്മിച്ച ഒരു ഭാരം കുറഞ്ഞ ഓഫ്‌ലൈൻ ബഹുഭാഷാ വോയ്‌സ് അസിസ്റ്റന്റാണ്. ഇതിൽ ലോക്കൽ RAG സെർച്ച്, സ്പീച്ച്-ടു-ടെക്സ്റ്റ്, ഉപകരണ ടെക്സ്റ്റ്-ടു-സ്പീച്ച്, SQLite ചാറ്റ് ഹിസ്റ്ററി എന്നിവ അടങ്ങിയിരിക്കുന്നു."
+  },
+  {
+    "id": "005",
+    "title": "MultiVoice Assist Overview Telugu",
+    "category": "project",
+    "language": "te",
+    "keywords": ["multivoice", "ఏమిటి", "అసిస్టెంట్", "వివరాలు"],
+    "question": "MultiVoice Assist అంటే ఏమిటి?",
+    "content": "MultiVoice Assist అనేది ఒక తేలికపాటి ಆఫ్‌లైన్ బహుభాషా వాయిస్ అసిస్టెంట్ అప్లికేషన్. ఇది లోకల్ RAG శోధన, స్పీచ్-టు-టెక్స్ట్, పరికర టెక్స్ట్-టు-స్పీచ్ మరియు SQLite చాట్ చరిత్రను అందిస్తుంది."
+  },
+  {
+    "id": "006",
+    "title": "MultiVoice Assist Overview Kannada",
+    "category": "project",
+    "language": "kn",
+    "keywords": ["multivoice", "ಎಂದರೇನು", "ಸಹಾಯಕ", "ವಿವರಣೆ"],
+    "question": "MultiVoice Assist ಎಂದರೇನು?",
+    "content": "MultiVoice Assist ಎಂಬುದು ಫ್ಲಟ್ಟರ್ ಬಳಸಿ ನಿರ್ಮಿಸಲಾದ ಹಗುರವಾದ ಆಫ್‌ಲೈನ್ ಬಹುಭಾಷಾ ಧ್ವನಿ ಸಹಾಯಕವಾಗಿದೆ. ಇದು ಲೋಕಲ್ RAG ಶೋಧನೆ, ಸ್ಪೀಚ್-ಟು-ಟೆಕ್ಸ್ಟ್ ಮತ್ತು ಸಾಧನದ ಟೆಕ್ಸ್ಟ್-ಟು-ಸ್ಪೀಚ್ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ."
+  },
+  {
+    "id": "007",
+    "title": "MultiVoice Assist Overview Arabic",
+    "category": "project",
+    "language": "ar",
+    "keywords": ["ما هو", "مساعد", "مشروع", "تطبيق"],
+    "question": "ما هو MultiVoice Assist؟",
+    "content": "MultiVoice Assist هو مساعد صوتي متعدد اللغات خفيف الوزن يعمل بدون إنترنت مصمم باستخدام Flutter. يوفر بحث RAG محلي وتقنيات تحويل الكلام إلى نص والنص إلى كلام وسجل محادثات SQLite."
+  },
+  {
+    "id": "008",
+    "title": "Key Features",
+    "category": "features",
+    "language": "en",
+    "keywords": ["features", "capabilities", "functionality", "what can it do"],
+    "question": "What features does MultiVoice Assist have?",
+    "content": "Key features include: 1. Offline Local RAG search 2. Speech-to-Text input 3. Device Text-to-Speech audio output 4. SQLite chat history storage with search 5. Multilingual language auto-detection (English, Tamil, Hindi, Malayalam, Telugu, Kannada, Arabic) 6. User authentication and profile management with image cropping 7. RAG Debug demonstration screen."
+  },
+  {
+    "id": "009",
+    "title": "Key Features Tamil",
+    "category": "features",
+    "language": "ta",
+    "keywords": ["அம்சங்கள்", "சிறப்பம்சங்கள்", "செயல்பாடுகள்"],
+    "question": "MultiVoice Assist-ன் சிறப்பம்சங்கள் யாவை?",
+    "content": "முக்கிய அம்சங்கள்: 1. ஆஃப்லைன் உள்ளூர் RAG தேடல் 2. குரல் மூலம் உரை உள்ளீடு (Speech-to-Text) 3. சாதன உரை-பேச்சு ஒலி வெளியீடு (Device TTS) 4. SQLite மூலம் அரட்டை வரலாறு சேமிப்பு 5. தமிழ், ஆங்கிலம், ஹிந்தி உள்ளிட்ட பன்மொழி ஆதரவு 6. பயனர் சுயவிவர மேலாண்மை."
+  },
+  {
+    "id": "010",
+    "title": "Speech Recognition Feature",
+    "category": "voice",
+    "language": "en",
+    "keywords": ["speech to text", "stt", "microphone", "voice input", "listening"],
+    "question": "How does speech recognition work?",
+    "content": "Speech recognition uses the flutter `speech_to_text` package to access your device's native microphone. You tap or press and hold the microphone icon to convert spoken audio into text in real-time."
+  },
+  {
+    "id": "011",
+    "title": "Text to Speech Feature",
+    "category": "voice",
+    "language": "en",
+    "keywords": ["text to speech", "tts", "speaker", "voice output", "read aloud", "audio"],
+    "question": "How does text to speech work?",
+    "content": "Text-to-Speech uses the device's native TTS engine via `flutter_tts`. Clicking the speaker icon reads the AI answer aloud using the appropriate locale voice (en-US, ta-IN, hi-IN, ml-IN, te-IN, kn-IN, ar-SA) completely offline."
+  },
+  {
+    "id": "012",
+    "title": "Supported Languages",
+    "category": "languages",
+    "language": "en",
+    "keywords": ["languages", "supported", "multilingual", "tamil", "hindi", "arabic"],
+    "question": "Which languages are supported?",
+    "content": "MultiVoice Assist supports 7 major languages: English (en), Tamil (ta), Hindi (hi), Malayalam (ml), Telugu (te), Kannada (kn), and Arabic (ar)."
+  },
+  {
+    "id": "013",
+    "title": "Supported Languages Tamil",
+    "category": "languages",
+    "language": "ta",
+    "keywords": ["மொழிகள்", "ஆதரவு", "தமிழ்"],
+    "question": "எந்தெந்த மொழிகள் ஆதரிக்கப்படுகின்றன?",
+    "content": "ஆங்கிலம், தமிழ், ஹிந்தி, மலையாளம், தெலுங்கு, கன்னடம் மற்றும் அரபு ஆகிய 7 மொழிகளை MultiVoice Assist ஆதரிக்கிறது."
+  },
+  {
+    "id": "014",
+    "title": "Local RAG Architecture",
+    "category": "technical",
+    "language": "en",
+    "keywords": ["rag", "retrieval", "augmented", "generation", "how it works", "architecture"],
+    "question": "How does local RAG work in MultiVoice Assist?",
+    "content": "Local RAG operates in 5 steps: 1. Detect language from user input via Unicode analysis. 2. Tokenize and normalize user query. 3. Perform TF-IDF & keyword matching on local JSON knowledge base. 4. Rank and extract top relevant context chunks above the minimum relevance threshold (0.18). 5. Generate a grounded response from retrieved context."
+  },
+  {
+    "id": "015",
+    "title": "Offline Functionality",
+    "category": "technical",
+    "language": "en",
+    "keywords": ["offline", "internet", "without wifi", "no api key"],
+    "question": "Does MultiVoice Assist work offline?",
+    "content": "Yes! MultiVoice Assist works 100% offline without internet connection or API keys. The knowledge base is stored locally on the device, speech recognition uses native device APIs, and text-to-speech uses on-device TTS synthesizers."
+  },
+  {
+    "id": "016",
+    "title": "Offline Functionality Tamil",
+    "category": "technical",
+    "language": "ta",
+    "keywords": ["ஆஃப்லைன்", "இணையம் இல்லாமல்", "இன்டர்நெட்"],
+    "question": "MultiVoice Assist இணையம் இல்லாமல் வேலை செய்யுமா?",
+    "content": "ஆம்! MultiVoice Assist 100% இணையம் இல்லாமல் ஆஃப்லைனில் வேலை செய்யும். இதற்கு API சாவிகள் (API keys) எதுவும் தேவையில்லை."
+  },
+  {
+    "id": "017",
+    "title": "SQLite Database & History",
+    "category": "database",
+    "language": "en",
+    "keywords": ["sqlite", "database", "chat history", "storage", "save messages"],
+    "question": "How is chat history stored?",
+    "content": "Chat history is saved locally in an SQLite database file (`chat_history.db`) using the `sqflite` package. Users can view, search, delete individual chats, or clear all history."
+  },
+  {
+    "id": "018",
+    "title": "Authentication & Security",
+    "category": "authentication",
+    "language": "en",
+    "keywords": ["login", "register", "auth", "security", "credentials", "password"],
+    "question": "How does user authentication work?",
+    "content": "Authentication operates locally using `SharedPreferences`. User login credentials (email and password) are validated on-device. Default demo credentials are admin@gmail.com / admin123."
+  },
+  {
+    "id": "019",
+    "title": "User Profile Management",
+    "category": "profile",
+    "language": "en",
+    "keywords": ["profile", "avatar", "crop image", "user settings", "name", "email"],
+    "question": "How to edit user profile?",
+    "content": "Users can edit their name and email in Profile Screen, select a custom avatar picture from device gallery using `image_picker`, crop it into a circle using `image_cropper`, and save it locally."
+  },
+  {
+    "id": "020",
+    "title": "RAG Debug Mode",
+    "category": "technical",
+    "language": "en",
+    "keywords": ["debug", "rag test", "scores", "faculty", "demo", "relevance"],
+    "question": "What is RAG Debug mode?",
+    "content": "RAG Debug screen is a demonstration feature designed for evaluation and faculty presentation. It displays the raw query, detected language code, top 3 retrieved knowledge entries with exact relevance score percentages, and final constructed answer."
+  },
+  {
+    "id": "021",
+    "title": "API Key Requirements",
+    "category": "FAQ",
+    "language": "en",
+    "keywords": ["api key", "openai", "groq", "gemini", "commercial", "paid"],
+    "question": "Is any commercial API key required?",
+    "content": "No commercial API key (OpenAI, Groq, Gemini, or HuggingFace) is required. MultiVoice Assist is completely self-contained and free from paid cloud services."
+  },
+  {
+    "id": "022",
+    "title": "API Key Requirements Tamil",
+    "category": "FAQ",
+    "language": "ta",
+    "keywords": ["ஏபிஐ", "சாவி", "கட்டணம்"],
+    "question": "இதற்கு ஏதேனும் API சாவி தேவையா?",
+    "content": "இல்லை, இதற்கு எந்தவொரு வர்த்தக API சாவியும் தேவையில்லை. பயன்பாடு முற்றிலும் இலவசமானது மற்றும் ஆஃப்லைனில் இயங்கக்கூடியது."
+  },
+  {
+    "id": "023",
+    "title": "Unknown Questions Handling",
+    "category": "FAQ",
+    "language": "en",
+    "keywords": ["unknown", "not found", "hallucination", "missing info"],
+    "question": "What happens if a question is not in the dataset?",
+    "content": "If the user asks a question whose relevance score is below the threshold (0.18), the assistant will strictly refuse to hallucinate and return: 'I couldn't find this information in my knowledge base.'"
+  },
+  {
+    "id": "024",
+    "title": "Flutter Technology Stack",
+    "category": "technical",
+    "language": "en",
+    "keywords": ["flutter", "dart", "framework", "tech stack", "dependencies"],
+    "question": "What technology stack is used in MultiVoice Assist?",
+    "content": "MultiVoice Assist is built using Flutter & Dart. Key packages include: provider (state management), sqflite (database), speech_to_text (voice input), flutter_tts (voice output), image_picker & image_cropper (profile image handling), and shared_preferences (local key-value storage)."
+  },
+  {
+    "id": "025",
+    "title": "Voice Chat Screen",
+    "category": "voice",
+    "language": "en",
+    "keywords": ["voice chat screen", "handsfree", "press and hold", "mic button"],
+    "question": "How to use Voice Chat mode?",
+    "content": "Navigate to Voice Chat screen from the app menu. Press and hold the big circular microphone button while speaking, then release to automatically send your speech to the Local RAG engine."
+  },
+  {
+    "id": "026",
+    "title": "Language Auto Detection",
+    "category": "languages",
+    "language": "en",
+    "keywords": ["language detection", "auto detect", "unicode", "script"],
+    "question": "How does automatic language detection work?",
+    "content": "Language detection analyzes the Unicode character ranges of user text. For instance, characters in range \\u0B80-\\u0BFF are identified as Tamil (ta), \\u0900-\\u097F as Hindi (hi), and \\u0600-\\u06FF as Arabic (ar)."
+  },
+  {
+    "id": "027",
+    "title": "Searching History",
+    "category": "history",
+    "language": "en",
+    "keywords": ["search history", "filter history", "find old chat"],
+    "question": "How to search past chat history?",
+    "content": "Open the History Screen and type in the search bar. The list filters past questions and answers matching your query instantly in real time."
+  },
+  {
+    "id": "028",
+    "title": "Deleting History",
+    "category": "history",
+    "language": "en",
+    "keywords": ["delete history", "clear chat", "remove conversation"],
+    "question": "How to delete chat history?",
+    "content": "In History Screen, tap the red trash bin icon next to any message to delete that single chat, or tap the top trash icon to clear all saved conversations from SQLite."
+  },
+  {
+    "id": "029",
+    "title": "Performance and Resource Usage",
+    "category": "technical",
+    "language": "en",
+    "keywords": ["performance", "cpu", "ram", "battery", "lightweight"],
+    "question": "Is MultiVoice Assist lightweight?",
+    "content": "Yes! Unlike heavy LLMs that consume gigabytes of RAM and heavy CPU/GPU resources, MultiVoice Assist uses in-memory JSON indexing and TF-IDF scoring, requiring less than 50MB RAM and negligible CPU usage."
+  },
+  {
+    "id": "030",
+    "title": "Dark Theme UI",
+    "category": "project",
+    "language": "en",
+    "keywords": ["dark theme", "design", "colors", "ui"],
+    "question": "Does MultiVoice Assist have a dark theme?",
+    "content": "Yes, MultiVoice Assist features a modern, clean dark theme with indigo, violet, and dark slate blue palette designed for comfortable low-light usage."
+  }
+]

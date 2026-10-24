@@ -1,0 +1,21 @@
+{
+  "dataset_name": "MultiVoice Assist Knowledge Dataset",
+  "version": "1.0.0",
+  "author": "MultiVoice Assist Team",
+  "license": "MIT / Public Domain",
+  "description": "Local knowledge dataset used for offline RAG indexing and response generation in MultiVoice Assist.",
+  "record_count": 30,
+  "supported_languages": ["en", "ta", "hi", "ml", "te", "kn", "ar"],
+  "categories": [
+    "project",
+    "features",
+    "voice",
+    "languages",
+    "authentication",
+    "profile",
+    "history",
+    "database",
+    "technical",
+    "FAQ"
+  ]
+}

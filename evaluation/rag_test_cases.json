@@ -1,0 +1,402 @@
+[
+  {
+    "id": "TC001",
+    "query": "What is MultiVoice Assist?",
+    "language": "en",
+    "category": "project",
+    "expected_source": "MultiVoice Assist Overview",
+    "expected_topic": "project_overview"
+  },
+  {
+    "id": "TC002",
+    "query": "Does MultiVoice Assist work offline?",
+    "language": "en",
+    "category": "features",
+    "expected_source": "Offline RAG Architecture",
+    "expected_topic": "offline_capabilities"
+  },
+  {
+    "id": "TC003",
+    "query": "Where is the central library located?",
+    "language": "en",
+    "category": "Campus",
+    "expected_source": "Campus Facilities",
+    "expected_topic": "library_location"
+  },
+  {
+    "id": "TC004",
+    "query": "What departments are available in the college?",
+    "language": "en",
+    "category": "Academic",
+    "expected_source": "Academic Departments",
+    "expected_topic": "departments_list"
+  },
+  {
+    "id": "TC005",
+    "query": "Where is the Computer Science department?",
+    "language": "en",
+    "category": "Academic",
+    "expected_source": "CSE Department",
+    "expected_topic": "cse_location"
+  },
+  {
+    "id": "TC006",
+    "query": "What computer labs are available?",
+    "language": "en",
+    "category": "Facilities",
+    "expected_source": "Laboratories",
+    "expected_topic": "labs_info"
+  },
+  {
+    "id": "TC007",
+    "query": "What are the hostel facilities and rules?",
+    "language": "en",
+    "category": "Facilities",
+    "expected_source": "Hostel Information",
+    "expected_topic": "hostel_rules"
+  },
+  {
+    "id": "TC008",
+    "query": "What transport facilities are provided?",
+    "language": "en",
+    "category": "Facilities",
+    "expected_source": "Transport Services",
+    "expected_topic": "bus_routes"
+  },
+  {
+    "id": "TC009",
+    "query": "How is chat history stored locally?",
+    "language": "en",
+    "category": "FAQ",
+    "expected_source": "SQLite Database",
+    "expected_topic": "database_persistence"
+  },
+  {
+    "id": "TC010",
+    "query": "Is any commercial API key required?",
+    "language": "en",
+    "category": "FAQ",
+    "expected_source": "Zero API Keys Policy",
+    "expected_topic": "no_api_keys"
+  },
+  {
+    "id": "TC011",
+    "query": "MultiVoice Assist என்றால் என்ன?",
+    "language": "ta",
+    "category": "project",
+    "expected_source": "MultiVoice Assist தமிழ் விளக்கம்",
+    "expected_topic": "project_overview_ta"
+  },
+  {
+    "id": "TC012",
+    "query": "கல்லூரி நூலகம் எங்கே உள்ளது?",
+    "language": "ta",
+    "category": "Campus",
+    "expected_source": "வளாக வசதிகள்",
+    "expected_topic": "library_location_ta"
+  },
+  {
+    "id": "TC013",
+    "query": "கணினி அறிவியல் துறை எங்கே உள்ளது?",
+    "language": "ta",
+    "category": "Academic",
+    "expected_source": "கணினி அறிவியல் துறை",
+    "expected_topic": "cse_location_ta"
+  },
+  {
+    "id": "TC014",
+    "query": "இணைப்பு இல்லாமல் வேலை செய்யுமா?",
+    "language": "ta",
+    "category": "features",
+    "expected_source": "ஆஃப்லைன் அம்சங்கள்",
+    "expected_topic": "offline_capabilities_ta"
+  },
+  {
+    "id": "TC015",
+    "query": "பேருந்து வசதிகள் உள்ளனவா?",
+    "language": "ta",
+    "category": "Facilities",
+    "expected_source": "போக்குவரத்து வசதிகள்",
+    "expected_topic": "transport_ta"
+  },
+  {
+    "id": "TC016",
+    "query": "விடுதி விதிகள் என்ன?",
+    "language": "ta",
+    "category": "Facilities",
+    "expected_source": "விடுதி தகவல்கள்",
+    "expected_topic": "hostel_ta"
+  },
+  {
+    "id": "TC017",
+    "query": "அரட்டை வரலாறு எங்கே சேமிக்கப்படுகிறது?",
+    "language": "ta",
+    "category": "FAQ",
+    "expected_source": "SQLite தரவுத்தளம்",
+    "expected_topic": "database_ta"
+  },
+  {
+    "id": "TC018",
+    "query": "எந்தெந்த மொழிகள் ஆதரிக்கப்படுகின்றன?",
+    "language": "ta",
+    "category": "FAQ",
+    "expected_source": "ஆதரிக்கப்படும் மொழிகள்",
+    "expected_topic": "languages_ta"
+  },
+  {
+    "id": "TC019",
+    "query": "சுயவிவரப் படத்தை எவ்வாறு மாற்றுவது?",
+    "language": "ta",
+    "category": "FAQ",
+    "expected_source": "சுயவிவர அமைப்புகள்",
+    "expected_topic": "profile_ta"
+  },
+  {
+    "id": "TC020",
+    "query": "API விசை தேவையா?",
+    "language": "ta",
+    "category": "FAQ",
+    "expected_source": "பூஜ்ஜிய API கொள்கை",
+    "expected_topic": "no_api_keys_ta"
+  },
+  {
+    "id": "TC021",
+    "query": "MultiVoice Assist क्या है?",
+    "language": "hi",
+    "category": "project",
+    "expected_source": "MultiVoice Assist परिचय",
+    "expected_topic": "project_overview_hi"
+  },
+  {
+    "id": "TC022",
+    "query": "क्या यह ऐप ऑफलाइन काम करता है?",
+    "language": "hi",
+    "category": "features",
+    "expected_source": "ऑफलाइन क्षमताएं",
+    "expected_topic": "offline_capabilities_hi"
+  },
+  {
+    "id": "TC023",
+    "query": "केंद्रीय पुस्तकालय कहां स्थित है?",
+    "language": "hi",
+    "category": "Campus",
+    "expected_source": "परिसर सुविधाएं",
+    "expected_topic": "library_location_hi"
+  },
+  {
+    "id": "TC024",
+    "query": "कंप्यूटर साइंस विभाग कहां है?",
+    "language": "hi",
+    "category": "Academic",
+    "expected_source": "सीएसई विभाग",
+    "expected_topic": "cse_location_hi"
+  },
+  {
+    "id": "TC025",
+    "query": "हॉस्टल की क्या सुविधाएं हैं?",
+    "language": "hi",
+    "category": "Facilities",
+    "expected_source": "छात्रावास की जानकारी",
+    "expected_topic": "hostel_hi"
+  },
+  {
+    "id": "TC026",
+    "query": "बस सुविधाएं क्या उपलब्ध हैं?",
+    "language": "hi",
+    "category": "Facilities",
+    "expected_source": "परिवहन सेवाएं",
+    "expected_topic": "transport_hi"
+  },
+  {
+    "id": "TC027",
+    "query": "चैट इतिहास कहां सुरक्षित रहता है?",
+    "language": "hi",
+    "category": "FAQ",
+    "expected_source": "SQLite डेटाबेस",
+    "expected_topic": "database_hi"
+  },
+  {
+    "id": "TC028",
+    "query": "कौन सी भाषाएं समर्थित हैं?",
+    "language": "hi",
+    "category": "FAQ",
+    "expected_source": "समर्थित भाषाएं",
+    "expected_topic": "languages_hi"
+  },
+  {
+    "id": "TC029",
+    "query": "प्रोफ़ाइल चित्र कैसे बदलें?",
+    "language": "hi",
+    "category": "FAQ",
+    "expected_source": "प्रोफ़ाइल सेटिंग्स",
+    "expected_topic": "profile_hi"
+  },
+  {
+    "id": "TC030",
+    "query": "क्या कोई API कुंजी चाहिए?",
+    "language": "hi",
+    "category": "FAQ",
+    "expected_source": "शून्य API नीति",
+    "expected_topic": "no_api_keys_hi"
+  },
+  {
+    "id": "TC031",
+    "query": "MultiVoice Assist എന്താണ്?",
+    "language": "ml",
+    "category": "project",
+    "expected_source": "വിവരണം",
+    "expected_topic": "project_overview_ml"
+  },
+  {
+    "id": "TC032",
+    "query": "ഓഫ്ലൈനായി പ്രവർത്തിക്കുമോ?",
+    "language": "ml",
+    "category": "features",
+    "expected_source": "ഓഫ്ലൈൻ ഫീച്ചറുകൾ",
+    "expected_topic": "offline_ml"
+  },
+  {
+    "id": "TC033",
+    "query": "ലൈബ്രറി എവിടെയാണ്?",
+    "language": "ml",
+    "category": "Campus",
+    "expected_source": "ലൈബ്രറി വിവരങ്ങൾ",
+    "expected_topic": "library_ml"
+  },
+  {
+    "id": "TC034",
+    "query": "ഹോസ്റ്റൽ സൗകര്യങ്ങൾ എന്തൊക്കെയാണ്?",
+    "language": "ml",
+    "category": "Facilities",
+    "expected_source": "ഹോസ്റ്റൽ വിവരങ്ങൾ",
+    "expected_topic": "hostel_ml"
+  },
+  {
+    "id": "TC035",
+    "query": "ചാറ്റ് ചരിത്രം എവിടെ സൂക്ഷിക്കുന്നു?",
+    "language": "ml",
+    "category": "FAQ",
+    "expected_source": "SQLite ഡാറ്റാബേസ്",
+    "expected_topic": "database_ml"
+  },
+  {
+    "id": "TC036",
+    "query": "MultiVoice Assist అంటే ఏమిటి?",
+    "language": "te",
+    "category": "project",
+    "expected_source": "వివరణ",
+    "expected_topic": "project_overview_te"
+  },
+  {
+    "id": "TC037",
+    "query": "ఈ యాప్ ಆఫ్ లైన్ లో పనిచేస్తుందా?",
+    "language": "te",
+    "category": "features",
+    "expected_source": "ఆఫ్‌లైన్ సమాచారం",
+    "expected_topic": "offline_te"
+  },
+  {
+    "id": "TC038",
+    "query": "లైబ్రరీ ఎక్కడ ఉంది?",
+    "language": "te",
+    "category": "Campus",
+    "expected_source": "లైబ్రరీ సమాచారం",
+    "expected_topic": "library_te"
+  },
+  {
+    "id": "TC039",
+    "query": "హాస్టల్ సౌకర్యాలు ఏమిటి?",
+    "language": "te",
+    "category": "Facilities",
+    "expected_source": "హాస్టల్ విభాగాలు",
+    "expected_topic": "hostel_te"
+  },
+  {
+    "id": "TC040",
+    "query": "చాట్ చరిత్ర ఎక్కడ నిల్వ చేయబడుతుంది?",
+    "language": "te",
+    "category": "FAQ",
+    "expected_source": "SQLite డేటాబేస్",
+    "expected_topic": "database_te"
+  },
+  {
+    "id": "TC041",
+    "query": "MultiVoice Assist ಎಂದರೇನು?",
+    "language": "kn",
+    "category": "project",
+    "expected_source": "ವಿವರಣೆ",
+    "expected_topic": "project_overview_kn"
+  },
+  {
+    "id": "TC042",
+    "query": "ಈ ಅಪ್ಲಿಕೇಶನ್ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆಯೇ?",
+    "language": "kn",
+    "category": "features",
+    "expected_source": "ಆಫ್‌ಲೈನ್ ವೈಶಿಷ್ಟ್ಯಗಳು",
+    "expected_topic": "offline_kn"
+  },
+  {
+    "id": "TC043",
+    "query": "ಗ್ರಂಥಾಲಯ ಎಲ್ಲಿದೆ?",
+    "language": "kn",
+    "category": "Campus",
+    "expected_source": "ಗ್ರಂಥಾಲಯ ಮಾಹಿತಿ",
+    "expected_topic": "library_kn"
+  },
+  {
+    "id": "TC044",
+    "query": "ವಸತಿ ನಿಲಯದ ನಿಯಮಗಳು யಾವವು?",
+    "language": "kn",
+    "category": "Facilities",
+    "expected_source": "ವಸತಿ ನಿಲಯ ಮಾಹಿತಿ",
+    "expected_topic": "hostel_kn"
+  },
+  {
+    "id": "TC045",
+    "query": "ಚಾಟ್ ಹಿಸ್ಟರಿ ಎಲ್ಲಿ ಉಳಿಯುತ್ತದೆ?",
+    "language": "kn",
+    "category": "FAQ",
+    "expected_source": "SQLite ಡೇಟಾಬೇಸ್",
+    "expected_topic": "database_kn"
+  },
+  {
+    "id": "TC046",
+    "query": "ما هو MultiVoice Assist؟",
+    "language": "ar",
+    "category": "project",
+    "expected_source": "نظرة عامة",
+    "expected_topic": "project_overview_ar"
+  },
+  {
+    "id": "TC047",
+    "query": "هل يعمل التطبيق بدون إنترنت؟",
+    "language": "ar",
+    "category": "features",
+    "expected_source": "الميزات دون اتصال",
+    "expected_topic": "offline_ar"
+  },
+  {
+    "id": "TC048",
+    "query": "أين تقع المكتبة المركزية؟",
+    "language": "ar",
+    "category": "Campus",
+    "expected_source": "معلومات المكتبة",
+    "expected_topic": "library_ar"
+  },
+  {
+    "id": "TC049",
+    "query": "ما هي متطلبات المفتاح المجاني؟",
+    "language": "ar",
+    "category": "FAQ",
+    "expected_source": "سياسة عدم وجود مفاتيح",
+    "expected_topic": "no_api_keys_ar"
+  },
+  {
+    "id": "TC050",
+    "query": "What is the principal's private phone number?",
+    "language": "en",
+    "category": "Unknown",
+    "expected_source": null,
+    "expected_topic": "hallucination_prevention"
+  }
+]
