@@ -13,7 +13,7 @@ export interface GroundedAnswerOutput {
 
 export class AnswerGeneratorService {
   /**
-   * Generates answer using Hugging Face hosted model (or local grounded engine fallback if offline/unauthorized).
+   * Generates answer using Hugging Face hosted model with smart context routing and offline fallback.
    */
   public async generateGroundedAnswer(params: {
     query: string;
@@ -22,14 +22,17 @@ export class AnswerGeneratorService {
   }): Promise<GroundedAnswerOutput> {
     const { query, searchResults, detectedLanguage } = params;
 
-    const validResults = searchResults.filter((res) => res.score >= ragConfig.minRelevanceScore);
+    // Filter results matching minimum relevance score (0.25)
+    const validResults = searchResults.filter((res) => res.score >= 0.25);
     const topResult = validResults.length > 0 ? validResults[0] : null;
     const topScore = topResult ? topResult.score : 0.0;
 
-    const sources = Array.from(new Set(validResults.map((res) => res.document.title)));
-    const contextText = validResults
-      .map((res) => `${res.document.title}: ${res.document.content}`)
-      .join('\n\n');
+    // Only supply context if there is a high-confidence match for project/college info
+    const isProjectSpecific = topScore >= 0.35;
+    const sources = isProjectSpecific ? Array.from(new Set(validResults.map((res) => res.document.title))) : [];
+    const contextText = isProjectSpecific
+      ? validResults.map((res) => `${res.document.title}: ${res.document.content}`).join('\n\n')
+      : '';
 
     // 1. Try Hugging Face Hosted Inference via Backend Proxy
     try {
@@ -54,11 +57,11 @@ export class AnswerGeneratorService {
         };
       }
     } catch (e) {
-      console.warn('[AnswerGeneratorService] Hugging Face backend unreachable, utilizing local engine.');
+      console.warn('[AnswerGeneratorService] Hugging Face backend notice:', e);
     }
 
-    // 2. Seamless Local Grounded Fallback: Return top best match content in requested language
-    if (topResult && topScore >= ragConfig.minRelevanceScore) {
+    // 2. High-Confidence RAG Match Fallback
+    if (topResult && isProjectSpecific) {
       return {
         answer: topResult.document.content.trim(),
         sources: [topResult.document.title],
@@ -67,11 +70,20 @@ export class AnswerGeneratorService {
       };
     }
 
+    // 3. General Knowledge On-Device Response Engine
+    const localInference = await localLLMService.generateGroundedResponse({
+      systemPrompt: ragConfig.systemPrompt,
+      userQuery: query,
+      context: contextText,
+      language: detectedLanguage,
+    });
+
     return {
-      answer: ragConfig.getFallbackMessage(detectedLanguage),
+      answer: localInference.text,
       sources: [],
       topScore,
-      modelUsed: 'Offline Fallback',
+      modelUsed: 'Local Intelligence Engine',
+      inferenceResult: localInference,
     };
   }
 
